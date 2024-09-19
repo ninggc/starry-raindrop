@@ -6,6 +6,8 @@ on:
 # on:
 #   push:
 #     branches: [main]
+  # Run action manual
+  workflow_dispatch:
 
 jobs:
   build-and-run:
